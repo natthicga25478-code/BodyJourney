@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Video Learning</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)),
+    url("https://images.unsplash.com/photo-1530210124550-912dc1381cb8?q=80&w=1200&auto=format&fit=crop");
+
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    color:white;
+}
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 50px;
+}
+
+.logo{
+    font-size:50px;
+    font-weight:bold;
+    color:#38bdf8;
+    text-shadow:0 0 20px #38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* CONTAINER */
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:100px;
+}
+
+.container h1{
+    font-size:75px;
+    color:#38bdf8;
+    margin-bottom:60px;
+    text-shadow:0 0 20px #38bdf8;
+}
+
+/* VIDEO CARDS */
+
+.video-grid{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.video-card{
+    width:350px;
+    padding:40px;
+    border-radius:25px;
+    background:rgba(255,255,255,0.08);
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+    backdrop-filter:blur(10px);
+}
+
+.video-card:hover{
+    transform:translateY(-10px);
+    background:rgba(56,189,248,0.2);
+    box-shadow:0 0 25px #38bdf8;
+}
+
+.video-card h2{
+    font-size:42px;
+    margin-bottom:20px;
+    color:#38bdf8;
+}
+
+.video-card p{
+    font-size:24px;
+    line-height:1.6;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">BodyJourney</div>
+
+<a href="index.html">Home</a>
+
+</nav>
+
+<div class="container">
+
+<h1>🎥 Video Learning</h1>
+
+<div class="video-grid">
+
+<a class="video-card"
+
+href="https://www.youtube.com/results?search_query=skeletal+system+anatomy"
+
+target="_blank">
+
+<h2>▶ YouTube</h2>
+
+<p>
+ดูวิดีโอ Anatomy แบบละเอียด
+</p>
+
+</a>
+
+<a class="video-card"
+
+href="https://vt.tiktok.com/ZS9EyRaeJ/"
+
+target="_blank">
+
+<h2>🎵 TikTok</h2>
+
+<p>
+ดูคลิปสั้น Anatomy เข้าใจง่าย
+</p>
+
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
